@@ -1,0 +1,5 @@
+
+
+docker run --name code_server -v /home/docker/repository/:/root/repository -w /root -itd ubuntu:20.04 bash
+
+# docker run --name code_server -it -u $(id -u):$(id -g) <image name> bash
